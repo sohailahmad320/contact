@@ -13,5 +13,13 @@
         "psr-4": {
             "Echo\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Echos\\Contact\\ContactServiceProvider"
+            ]
+           
+        }
     }
 }
