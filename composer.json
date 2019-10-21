@@ -1,0 +1,17 @@
+{
+    "name": "echo/contact",
+    "description": "This is a contact Form",
+    "type": "library",
+    "license": "MIT",
+    "authors":[{
+            "name":"ahmad",
+            "email":"sohail@echo.sa"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Echo\\Contact\\": "src/"
+        }
+    }
+}
